@@ -105,6 +105,10 @@ Which will contain the 'OpenImageIO' directory.
 * libTIFF >= 3.9 (recommended: 4.0+; tested through 4.3)
 * Boost >= 1.53 (recommended: at least 1.66; tested through 1.76)
 
+(TODO: check if used directly by OIIO, or by its deps)
+* BZip2
+* FreeType
+
 
 ## Optional Dependencies
 
@@ -115,6 +119,10 @@ Which will contain the 'OpenImageIO' directory.
   * Python >= 2.7 (3.7.9)
   * pybind11 >= 2.4.2 (2.6.1)
   * NumPy
+  (TODO: check if used directly by OIIO, or by its deps)
+  ? - PySide2
+  ? - Jinja2
+  ? - PyOpenGL
 * camera "RAW" formats support
   * LibRaw
     * Min version 0.15
@@ -127,7 +135,8 @@ Which will contain the 'OpenImageIO' directory.
 * Field3D files
   * Field3D (tested through 1.7.3)
 * OpenVDB files:
-  * OpenVDB >= 5.0 (tested through 8.0) and Intel TBB >= 2018 (tested through 2021)
+  * OpenVDB >= 5.0 (tested through 8.0)
+  * Intel TBB >= 2018 (tested through 2021)
   * Note that OpenVDB 8.0+ requires C++14 or higher.
 * OpenCV data structures, or for capturing images from a camera
   * OpenCV 3.x, or 4.x (tested through 4.5)
@@ -309,6 +318,7 @@ Version 1.6.37.
 
 ### BZIP2
 
+(TODO: check if used directly by OIIO, or by its deps)
 ...
 Version 1.0.8.
 
@@ -317,6 +327,7 @@ Version 1.0.8.
 
 ### FREETYPE
 
+(TODO: check if used directly by OIIO, or by its deps)
 ...
 
 (TODO: link to "freetype" page)
