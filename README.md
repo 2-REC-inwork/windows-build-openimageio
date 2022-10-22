@@ -201,7 +201,15 @@ Version [3.7.9](https://www.python.org/downloads/release/python-379/) is used he
 ! - For the debug build of OIIO, the Python Debug symbols and binaries are required!
 They can be downloaded+installed when installing Python, or by modifying an existing install.
 (TODO: see if problem with OCIO, which has the opposite problem)
+((TODO: CHECK:
+in file:
+oiio\src\cmake\pythonutils.cmake
 
+Python_Development_FOUND is set to true => look for dev python lib
+if manually set it to false => doesn't look for python37_d and build is ok
+
+=> see how to enable/disable for OIIO and OCIO (opposite behaviour)
+))
 
 OIIO can also be built without Python by setting the configure option:
 ```batch
@@ -483,6 +491,18 @@ Looking for "__imp_opj_version", but only "opj_version" in lib symbols.
 Version 2.3.2.
 
 (TODO: link to "ptex" page)
+
+
+(TODO: move this to "ptex" page? or usd specific?)
+ERRORS AT LINKING in USD:
+Unresolved externals:
+```
+Ptex::v2_3::String::~String(void)
+Ptex::v2_3::PtexCache::create(...)
+Ptex::v2_3::ConvertFromFloat(...)
+```
+=> build issue related to "PTEXAPI" or "PTEX_EXPORTS"?
+
 
 
 ### WEBP
