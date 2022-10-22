@@ -1,0 +1,10 @@
+
+TODO:
+- copy generated files in external location
+- Solve how to make DLL with export symbols - need to modify code?
+Can add rule in makefile:
+```
+dll: $(OBJS)
+	$(CC) /D_USRDLL /D_WINDLL $(OBJS) /MT /link /DLL /out:libbz2.dll
+```
+but symbols are not exported in the DLL (there i however a "DEF" file provided...)

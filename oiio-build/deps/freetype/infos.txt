@@ -1,0 +1,21 @@
+
+!!!!
+TODO: add appropriate libraries to each config!
+
+
+(TODO:
+- see how could make command line (avoid opening VS2019)
+- check all deps and have correct debug|release, 32|64, STATIC|SHARED files!
+)
+
+Look at details in OIIO build file...
+(TODO: add details here)
+
+
+------------
+
+- Copy content of "freetype_win" in "freetype-2.11.0" (overwrite existing files)
+- Open 'builds\windows\vs2019\freetype.sln' in Visual Studio 2019
+- Select build configuration (eg: "Release Static|x64")
+- Build
+

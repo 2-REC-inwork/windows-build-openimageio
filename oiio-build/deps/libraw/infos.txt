@@ -1,0 +1,14 @@
+
+LibRaw-cmake-master.zip
+=> Allow to use CMake to build libraw
+(extract in libraw directory)
+
+2 errors in CMakeList.txt:
+- when installing 'pdb' files: wrong path is used, omitting the configuration (debug|release).
+- grammar error in cmake
+  -- Check for LCMS availability instead LCMS2...
+
+
+deps:
+- jpeg
+- zlib

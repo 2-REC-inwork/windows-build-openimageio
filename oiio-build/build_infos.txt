@@ -1,0 +1,5 @@
+
+UNFINISHED and not up to date...
+
+(built with OCIO "debug normal" - no Python debug installed - BUT OIIO with debug Python installed)
+TODO: MAKE SURE IT'S OK!

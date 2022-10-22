@@ -1,0 +1,21 @@
+deps
+    zlib
+        x64
+            Debug
+                bin
+                    zlibd.dll
+                include
+                    zconf.h
+                    zlib.h
+                lib
+                    zlibd.lib
+                    zlibstaticd.lib
+            Release
+                bin
+                    zlib.dll
+                include
+                    zconf.h
+                    zlib.h
+                lib
+                    zlib.lib
+                    zlibstatic.lib

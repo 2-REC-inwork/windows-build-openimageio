@@ -1,0 +1,12 @@
+
+! - TODO: rebuild providing PDB for LCMS2!
+Warnings:
+warning LNK4099: PDB 'lcms2.pdb' was not found with 'lcms2.lib(cmslut.obj)' or at 'C:\Users\2-REC\Documents\openjpeg\build\bin\Debug\lcms2.pdb'; linking object as if no debug info
+
+----
+
+Deps:
+- lcms2
+- png
+- tiff
+- zlib

@@ -1,0 +1,10 @@
+keep?
+=> no need to provide built zlib here, as already with OIIO
+  OR, provide here, and not with OIIO?
+  jpeg
+  => also provided elsewhere?
+
+versions:
+- glut => 
+- jpeg => jpeg turbo 2.1.1
+- zlib => 4.3.0

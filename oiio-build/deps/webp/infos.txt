@@ -1,0 +1,13 @@
+
+win_build_fix
+=> Modified files to fix shared libraries issues in Windows build.
+
+Deps:
+- gif
+- glut
+- jpegturbo
+- png
+- tiff
+- zlib
+
+TODO: Should provide PDB files with debug libs.

@@ -1,0 +1,5 @@
+- Extract the archive
+- Go to 'build' directory
+- Copy vs2013 to vs2019, open 'makefile.sln' in vs2019 (+convert)
+- Select config (x64|Release)
+- Build solution

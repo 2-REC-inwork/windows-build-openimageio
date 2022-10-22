@@ -1,0 +1,1 @@
+build instructions (as alternative to jpeg-turbo)

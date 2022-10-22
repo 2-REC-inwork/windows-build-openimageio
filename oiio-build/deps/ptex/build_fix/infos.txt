@@ -1,0 +1,5 @@
+fix
+=> Modified cmake files to avoid using PkgConfig
+
+fix-build.patch.txt
+=> More recent version patch (could be used, or to get content from it)

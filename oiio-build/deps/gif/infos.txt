@@ -1,0 +1,18 @@
+GIFLIB WINDOWS BUILD
+
+- Extract the giflib source in a directory at the same level as "giflib_win", and rename it "giflib"
+
+- Install CLang tools for Visual Studio 2019
+
+- Open the solution in VS2019
+
+- Open "gif_font.c" and add the following at the beginning (after "gif_lib.h" include):
+
+#ifdef _MSC_VER
+#define strtok_r strtok_s
+#endif
+
+  (TODO: this is mandatory for the shared build, for static build there is only a warning - is it required?)
+
+- Can switch between static or shared builds by changing the project type in the configuration.
+  To build OIIO, it seems that the static build is expected.
